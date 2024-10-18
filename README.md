@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+This project is a bioinformatics visualization app that leverages D3.js to create interactive visualizations for data retrieved from the TCGA (The Cancer Genome Atlas) API, specifically focusing on the TCGA-BRCA dataset (Breast Invasive Carcinoma). It includes various types of data visualizations such as time series, bubble charts, heatmaps, and network graphs to explore clinical and mutation data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Interactive Time Series Visualization: Visualize mutation data over time, interactively adjusting the data displayed.
+Bubble Charts: Display gene expression and mutation data as bubbles, with hover functionality for additional details.
+Network Graphs: Visualization of connections between genes or mutations using force-directed graphs.
+Heatmaps: Analyze survival data or relationships between clinical factors such as age and survival.
+Tree Diagrams: Explore hierarchical relationships between genes or mutations.
+Will add more interactive visualizations later
 
-## Available Scripts
+Visualizations
+Time Series Map: Mutation data displayed across a timeline.
+Bubble Chart: Visualizes mutation and gene expression data.
+Heatmap: Displays age-at-diagnosis versus survival rates.
+Network Graph: Illustrates relationships between genes and mutations.
+Tree Diagram: Explores hierarchical data relationships.
 
-In the project directory, you can run:
+Data Source
+TCGA: The Cancer Genome Atlas (https://portal.gdc.cancer.gov/)
+Dataset: TCGA-BRCA (Breast Invasive Carcinoma)
+Fetches data from the TCGA API, specifically from the TCGA-BRCA dataset.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Technologies Used
+React.js: Frontend library for building user interfaces.
+D3.js: Data visualization library.
+TCGA API: For retrieving mutation, gene expression, and clinical data.
+Git: For version control.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Future Enhancements
+Add more interactivity and details to the hover features on charts.
+Implement drag-and-drop functionality in the visualizations.
+Expand the visualizations to support more data types and clinical insights.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
