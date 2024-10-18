@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 20px; /* Add margin around the entire page */
 }
 
 .App-logo {
@@ -18,10 +19,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: linear-gradient(black, red);
 }
 
 .App-link {
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+svg {
+  background-color: #282c34;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
