@@ -59,3 +59,25 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.visualization-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+}
+
+.map-container {
+  flex-grow: 1;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
