@@ -32,4 +32,16 @@ Add more interactivity and details to the hover features on charts.
 Implement drag-and-drop functionality in the visualizations.
 Expand the visualizations to support more data types and clinical insights.
 
+## Project Screenshots
+
+Here are some screenshots from the project:
+
+### Screenshot 1
+![Screenshot 1](./demo/1.png)
+
+### Screenshot 2
+![Screenshot 2](./demo/2.png)
+
+### Screenshot 3
+![Screenshot 3](./demo/3.png)
 

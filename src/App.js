@@ -4,8 +4,8 @@ import NetworkGraph from './components/NetworkGraph';
 import TreeDiagram from './components/TreeDiagram';
 import ClinicalDataVisualization from './components/ClinicalDataVisualization';
 import GeneExpressionData from "./components/GeneExpressionData";
-import mutationData from "./components/MutationData";
 import MutationData from "./components/MutationData";
+import MapHeatmap from "./components/MapHeatmap";
 
 function App() {
     return (
@@ -21,6 +21,7 @@ function App() {
                             <li><Link to="/clincal">Clinical Data Visualization</Link></li>
                             <li><Link to="/gene">Gene Expression Data Visualization</Link></li>
                             <li><Link to="/mutation">Mutation Data Visualization</Link></li>
+                            <li><Link to="/geoHeatmap">GeoHeatmap Data Visualization</Link></li>
                         </ul>
                     </nav>
                 </header>
@@ -32,6 +33,7 @@ function App() {
                     <Route path="/clincal" element={<ClinicalDataVisualization />} />
                     <Route path="/gene" element={<GeneExpressionData />} />
                     <Route path="/mutation" element={<MutationData />} />
+                    <Route path="/geoHeatmap" element={<MapHeatmap />} />
                 </Routes>
             </div>
         </Router>
