@@ -12,6 +12,7 @@ Visualizations
 Time Series Map: Mutation data displayed across a timeline.
 Bubble Chart: Visualizes mutation and gene expression data.
 Heatmap: Displays age-at-diagnosis versus survival rates.
+Geo Heatmap: Displays different cancer rates over the world, with filters can select different features.
 Network Graph: Illustrates relationships between genes and mutations.
 Tree Diagram: Explores hierarchical data relationships.
 
@@ -32,12 +33,13 @@ Add more interactivity and details to the hover features on charts.
 Implement drag-and-drop functionality in the visualizations.
 Expand the visualizations to support more data types and clinical insights.
 
+
 ## Project Screenshots
 
 Here are some screenshots from the project:
 
 ### Screenshot 1
-![Screenshot 1](./demo/1.png)
+![Screenshot 1](./demo/4.png)
 
 ### Screenshot 2
 ![Screenshot 2](./demo/2.png)
