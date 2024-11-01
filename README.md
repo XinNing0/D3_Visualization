@@ -15,6 +15,9 @@ Heatmap: Displays age-at-diagnosis versus survival rates.
 Geo Heatmap: Displays different cancer rates over the world, with filters can select different features.
 Network Graph: Illustrates relationships between genes and mutations.
 Tree Diagram: Explores hierarchical data relationships.
+Mutation Lolliplot: Represents mutations along a gene or protein sequence, with sizes indicating frequency or impact.
+Variant Frequency Visualization: Shows mutation frequencies across populations or conditions in an interactive bar chart format.
+3D DNA Visualization: Displays the DNA structure in a 3D interactive model, allowing users to explore the double helix and its components.
 
 Data Source
 TCGA: The Cancer Genome Atlas (https://portal.gdc.cancer.gov/)
@@ -47,3 +50,11 @@ Here are some screenshots from the project:
 ### Screenshot 3
 ![Screenshot 3](./demo/3.png)
 
+### Screenshot 5
+![Screenshot 3](./demo/5.png)
+
+### Screenshot 6
+![Screenshot 3](./demo/6.png)
+
+### Screenshot 7
+![Screenshot 3](./demo/7.png)

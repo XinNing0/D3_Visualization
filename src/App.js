@@ -6,6 +6,23 @@ import ClinicalDataVisualization from './components/ClinicalDataVisualization';
 import GeneExpressionData from "./components/GeneExpressionData";
 import MutationData from "./components/MutationData";
 import MapHeatmap from "./components/MapHeatmap";
+import MutationLolliplot from "./components/MutationLolliplot";
+import VariantFrequencyPlot from "./components/VariantFrequencyPlot";
+import DNAVisualizer from "./components/DNAVisualizer";
+
+const mutationData = [
+    { location: 10, impact: 5 },
+    { location: 25, impact: 8 },
+    { location: 40, impact: 12 },
+    { location: 75, impact: 3 },
+];
+
+const variantData = [
+    { variantType: "A>C", frequency: 120 },
+    { variantType: "C>G", frequency: 80 },
+    { variantType: "T>A", frequency: 150 },
+    { variantType: "G>T", frequency: 90 },
+];
 
 function App() {
     return (
@@ -22,6 +39,11 @@ function App() {
                             <li><Link to="/gene">Gene Expression Data Visualization</Link></li>
                             <li><Link to="/mutation">Mutation Data Visualization</Link></li>
                             <li><Link to="/geoHeatmap">GeoHeatmap Data Visualization</Link></li>
+                            <li><Link to="/MutationLolliplot">Mutation Lolliplot Data Visualization</Link></li>
+                            <li><Link to="/Variant">Variant Data Visualization</Link></li>
+                            <li><Link to="/dna">3D DNA Visualization</Link></li>
+
+
                         </ul>
                     </nav>
                 </header>
@@ -34,6 +56,11 @@ function App() {
                     <Route path="/gene" element={<GeneExpressionData />} />
                     <Route path="/mutation" element={<MutationData />} />
                     <Route path="/geoHeatmap" element={<MapHeatmap />} />
+                    <Route path="/MutationLolliplot" element={<MutationLolliplot data={mutationData} />} />
+                    <Route path="/variant" element={<VariantFrequencyPlot data={variantData} />} />
+                    <Route path="/dna" element={<DNAVisualizer />} />
+
+
                 </Routes>
             </div>
         </Router>
